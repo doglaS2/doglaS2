@@ -1,16 +1,15 @@
-## Hi there 👋
+## Hi, I'm Douglas Siqueira 👋
 
-<!--
-**doglaS2/doglaS2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full stack developer and Software Engineering student with solid knowledge in backend, frontend, database management, and programming logic.
 
-Here are some ideas to get you started:
+![doglaS2](https://github-readme-stats.vercel.app/api?username=doglaS2&show_icons=true&theme=transparent)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+##
+
+### Everyday Technologies 💻
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=doglaS2&hide_progress=true)
+
+## 
+
