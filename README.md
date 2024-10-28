@@ -4,7 +4,7 @@ Full stack developer and Software Engineering student with solid knowledge in ba
 
 ##
 
-### Everyday Technologies 💻
+### My technologies 💻
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=doglaS2&layout=compact)
