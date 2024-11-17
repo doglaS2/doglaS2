@@ -1,4 +1,4 @@
-## Hi, I'm Doug👋
+## Hi, i'm Doug👋
 
 Full stack developer and Software Engineering student with solid knowledge in backend, frontend, database management, and programming logic.
 
