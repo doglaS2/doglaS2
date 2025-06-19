@@ -19,6 +19,7 @@ I enjoy building data pipelines that are scalable, reliable, and easy to maintai
 Although my primary interest is in data, I also have experience in software development using:
 
 - **PHP**
+- **Java**
 - **JavaScript**
 - **React**
 - **Vue**
