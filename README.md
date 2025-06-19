@@ -9,7 +9,7 @@ My main focus is on **Data Engineering**, working with tools and technologies su
 - **Apache Airflow**
 - **Apache Spark**
 - **Python**
-- ¨**MongoDB**
+- **MongoDB**
 - **Django**
 - **SQL**
 - **Docker**
