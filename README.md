@@ -32,6 +32,4 @@ This background helps me bridge the gap between data platforms and product engin
 
 ---
 
-![github-snake-light](https://raw.githubusercontent.com/doglaS2/doglaS2/main/dist/github-snake.svg)
-
 ![github-snake-dark](https://raw.githubusercontent.com/doglaS2/doglaS2/main/dist/github-snake-dark.svg?sanitize=true)
