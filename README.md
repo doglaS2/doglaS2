@@ -1,10 +1,10 @@
-# Olá, sou Doug 👋
+# Hi, I'm Doug 👋
 
-Sou estudante de Engenharia de Software na **UNIPAMPA** e Técnico em Informática pelo **IFar**.
+I'm a Software Engineering undergraduate at **UNIPAMPA** and an IT Technician from **IFar**.
 
-## 📊 Engenharia de Dados
+## 📊 Data Engineering Focus
 
-Meu foco principal é em **Engenharia de Dados**, trabalhando com ferramentas e tecnologias como:
+My main focus is on **Data Engineering**, working with tools and technologies such as:
 
 * **Apache Kafka**
 * **Apache Airflow**
@@ -15,11 +15,11 @@ Meu foco principal é em **Engenharia de Dados**, trabalhando com ferramentas e 
 * **SQL**
 * **Docker**
 
-Gosto de construir **pipelines de dados** que são **escaláveis**, **confiáveis** e **fáceis de manter** — combinando processamento **batch** e **em tempo real** para possibilitar melhores decisões através de dados.
+I enjoy building **data pipelines** that are **scalable**, **reliable**, and **easy to maintain** — combining **batch** and **real-time** processing to enable better decisions through data.
 
-## 💻 Desenvolvimento de Software
+## 💻 Software Development Experience
 
-Embora meu interesse primário seja em dados, também tenho experiência em desenvolvimento de software utilizando:
+Although my primary interest is in data, I also have experience in software development using:
 
 * **PHP**
 * **Java**
@@ -28,7 +28,7 @@ Embora meu interesse primário seja em dados, também tenho experiência em dese
 * **Vue**
 * **TailwindCSS**
 
-Este *background* me ajuda a preencher a lacuna entre plataformas de dados e engenharia de produto quando necessário.
+This background helps me bridge the gap between data platforms and product engineering when needed.
 
 ---
 
