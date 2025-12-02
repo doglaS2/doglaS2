@@ -1,0 +1,35 @@
+# .github/workflows/snake2.yml
+name: Generate Snake Game
+
+on:
+  schedule:
+    # Roda todos os dias à meia-noite (Horário UTC)
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      # 1. Gera a imagem SVG
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # 2. Commit e Push SEGURO (Esta Action SÓ ADICIONA arquivos novos)
+      - name: Commit and Push Snake SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Define que apenas o SVG na pasta dist deve ser commitado
+          file_pattern: 'dist/*.svg'
+          commit_message: '🎨 Update GitHub Snake SVG'
+          # Usa o Token que você salvou no Secret
+          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
