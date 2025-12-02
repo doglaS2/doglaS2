@@ -14,7 +14,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         
-      # 1. Gera a imagem SVG
+      # 1. Gera a imagem SVG (Usa o Secret para autenticação)
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
@@ -24,12 +24,11 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # 2. Commit e Push SEGURO (Esta Action SÓ ADICIONA arquivos novos)
+      # 2. Commit e Push SEGURO (NÃO APAGA o README.md)
       - name: Commit and Push Snake SVG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           # Define que apenas o SVG na pasta dist deve ser commitado
           file_pattern: 'dist/*.svg'
           commit_message: '🎨 Update GitHub Snake SVG'
-          # Usa o Token que você salvou no Secret
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # O parâmetro 'token' FOI REMOVIDO aqui para resolver o erro.
